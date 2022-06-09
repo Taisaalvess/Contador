@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Yantramanav:wght@100&display=swap');
+
+* {
+    font-family: 'Acme', Yantramanav;
+}
+
+body{
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    color: #fff;
+}
+
+span {
+    font-size: 5em;
+}
+  
+button{
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #C21A70 ;
+    text-transform: uppercase;
+}
